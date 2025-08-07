@@ -1,1 +1,2 @@
 alert();
+//fundamental of javascript
