@@ -40,3 +40,32 @@ console.log(arr3);
 var arr4 = arr.indexOf(3);
 console.log(arr4);
 
+//object {curly braket ke under colon dekar left aur right side kuch bhi likho usko object kehte hai}
+//object ko key value pair bolte hai.. double comma mai likhna prta hai value.
+//object ke value ko access krne ke liye [nameofkey.obj] or obj['name ofkey']
+
+let obj = {
+    name: "taimoor"
+    age:8
+}
+obj.name
+//object.freeze(obj);
+
+
+//function
+
+function abcd(){
+    return 12;
+}
+
+var ans2 = abcd();
+
+//async js coding----line by line code chale ise kehte hai synchronous 
+//jo bhi code aysnc nature ka hota hai wo line by line nahi chalega
+//jo bhi code async nature ka ho usse side stack mai bhej dou aur agle code ko chala do jo sync nature ka ho...jab saara sync code khtm ho jaye tab check kri async code compltet hua ya nahi,, agr wo complete hua tou usko main stack mai laa dou
+async function abc(){
+    await fetch('https://jsonplaceholder.typicode.com/posts') //fetch async nature ka hota hai
+}
+git add .
+git commit -m "Updated"
+git push origin main
