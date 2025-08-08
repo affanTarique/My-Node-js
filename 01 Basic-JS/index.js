@@ -11,5 +11,8 @@ arr.forEach(function(val) {
     console.log(val + " hello");
 })
 
+//map
+//ek array ke compare dusra cope array banate hai(dublicate copy of array)
+
 
 
