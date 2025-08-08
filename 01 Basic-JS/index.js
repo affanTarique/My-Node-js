@@ -20,3 +20,11 @@ var affanarr = arr.map(function(val){
 })
 console.log(affanarr);
 
+//filter  
+//ek array ke compare dusra array banate hai , lekin isme condition hoti hai ki ya tou usse small ya big array banega something differnt but not the same
+var affanarr2 = arr.filter(function(val){
+    if(val >= 3) {return true;} // agar condition true hai to wo element naya array mai add hoga
+    else return false;
+})
+console.log(affanarr2);
+ 
