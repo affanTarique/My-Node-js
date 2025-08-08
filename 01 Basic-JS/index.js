@@ -27,4 +27,16 @@ var affanarr2 = arr.filter(function(val){
     else return false;
 })
 console.log(affanarr2);
+
+//find
+
+var arr3 = arr.find(function(val){
+    if (val ===2) return val;
+})
  
+console.log(arr3);
+
+//indexof (uss array ka index mtlb address deta hai)
+var arr4 = arr.indexOf(3);
+console.log(arr4);
+
