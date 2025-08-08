@@ -13,6 +13,8 @@ arr.forEach(function(val) {
 
 //map
 //ek array ke compare dusra cope array banate hai(dublicate copy of array)
+//use-- aapka ek array hai ,  uspe kuch calculation apko per member pe krni hai .. calculation ke baad jo result aaegi wo ek new array mai rkhna hai ,,, aur apko wo new array chaiye .. mtlb map array pe chalta hai for each ke tarah aur har baar ek new element nikal new array mai rkhta hai..
+ 
 
 
 
