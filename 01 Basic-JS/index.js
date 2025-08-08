@@ -64,8 +64,12 @@ var ans2 = abcd();
 //jo bhi code aysnc nature ka hota hai wo line by line nahi chalega
 //jo bhi code async nature ka ho usse side stack mai bhej dou aur agle code ko chala do jo sync nature ka ho...jab saara sync code khtm ho jaye tab check kri async code compltet hua ya nahi,, agr wo complete hua tou usko main stack mai laa dou
 async function abc(){
-    await fetch('https://jsonplaceholder.typicode.com/posts') //fetch async nature ka hota hai
+    var blob = await fetch('https://jsonplaceholder.typicode.com/posts') //fetch async nature ka hota hai
+    var ans = await blob.json(); 
+
+    console.log(ans.results); //yeh bhi async nature ka hai kyuki blob.json() bhi ek promise return karta hai
 }
-git add .
-git commit -m "Updated"
-git push origin main
+
+abc(); //function ko call karte hai
+
+//await ka matlab hai ki jab tak fetch complete nahi hota tab tak aapko wait krna padega
