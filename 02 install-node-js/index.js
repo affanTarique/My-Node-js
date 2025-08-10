@@ -6,5 +6,5 @@
 
 const fs = require 'fs';
 const http = require('http');
-console.
+console.log('Hello 
 
