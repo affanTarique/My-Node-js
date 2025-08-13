@@ -48,4 +48,12 @@ fs.unlink('dua.txt', function(err){
     else console.log("file deleted successfully")
 })
 
-Highlight
+//new folder creation
+const folderName = '/Users/DELL/Affancode/02 install-node-js/newFolder';
+try {
+  if (!fs.existsSync(folderName)) {
+    fs.mkdirSync(folderName);
+  }
+} catch (err) {
+  console.error(err);
+}
