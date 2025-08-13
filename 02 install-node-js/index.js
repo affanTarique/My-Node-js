@@ -23,3 +23,7 @@ fs.appendFile('taimoor.txt', " Haanji , abhi aaya hu ", function(err){
     else console.log("file updated successfully")
 })
 
+fs.rename('taimoor.txt', "kabbu.txt", function(err){
+    if(err)console.error(err);
+    else console.log("file renamed successfully") 
+})
