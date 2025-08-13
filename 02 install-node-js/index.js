@@ -12,7 +12,8 @@ copyfile
 rename
 unlink*/
 
-fs.writeFile('taimoor.txt', "heloo taimoor school gye the kya", function(err)){
-    
-}
+fs.writeFile('taimoor.txt', "heloo taimoor school gye the kya", function(err){
+    if (err) console.error(err);
+    else console.log("file created successfully")
+})
 
