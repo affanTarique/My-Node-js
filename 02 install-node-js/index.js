@@ -47,3 +47,5 @@ fs.unlink('dua.txt', function(err){
     if(err) console.error(err);
     else console.log("file deleted successfully")
 })
+
+Highlight
