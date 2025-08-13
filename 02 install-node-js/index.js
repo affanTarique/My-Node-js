@@ -17,3 +17,9 @@ fs.writeFile('taimoor.txt', "heloo taimoor school gye the kya", function(err){
     else console.log("file created successfully")
 })
 
+
+fs.appendFile('taimoor.txt', "abhi aaya hu", function(err){
+    if(err) console.error(err);
+    else console.log("file updated successfully")
+})
+
