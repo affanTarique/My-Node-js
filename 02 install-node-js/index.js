@@ -32,3 +32,8 @@ fs.copyFile('kabbu.txt', 'kabbu2.txt', function(err){
     if(err) console.error(err);
     else console.log("file copied successfully")
 })
+
+fs.copyFile('kabbu.txt', "./copy2/kabbu3.txt", function(err){
+    if(err) console.error(err);
+    else console.log("file copied successfully to subfolder");
+})
