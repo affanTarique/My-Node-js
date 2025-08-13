@@ -4,8 +4,15 @@
 //file system operation
 //understanidng http module
 
-console.log("Hello World!"); 
-console.log("hii")
-console.log("kiii")
-console.log("jii")
-console.log("yes")
+const fs = require('fs');
+
+/*writeFile
+appendfile
+copyfile
+rename
+unlink*/
+
+fs.writeFile('taimoor.txt', "heloo taimoor school gye the kya", function(err)){
+    
+}
+
