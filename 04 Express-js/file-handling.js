@@ -1,4 +1,5 @@
-//jab bhi server request accept karta hai waha se route ke beech pahuchne tak agar aap us request ko beech me rokte ho and kuch perform karte ho , to yeh element middleware kehlata hai---
+//fronend ---->>> backend------>>>>frontend
+//iska mtlb fronend se request send hota hai backend mai,, fir waps backend response send krta hai fronend mai ,, jo hamko apne wbsite ke upar show hota hai
 
 const express = require('express');
 const app = express();
@@ -28,4 +29,6 @@ app.get("/profile", function(req,res){
 });
 
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log("Server running on port 4000");
+});
