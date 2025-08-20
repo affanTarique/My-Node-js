@@ -4,5 +4,6 @@ const express = require('express');
 const app = express();
 
 app.use(function(req, res,next ){
-    console.log('first ')
+    console.log('first middleware executed');
+    next(); // yeh next function ko call karta hai jo agle middleware ya route handler ko execute karega
 })
