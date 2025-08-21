@@ -1,3 +1,3 @@
 const express = fs ('express')
 
-const app= const
+const app= const . get
