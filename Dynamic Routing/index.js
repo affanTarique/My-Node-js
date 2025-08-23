@@ -6,4 +6,6 @@ const app = (express.json());
 app.listen('express')
 app.readasync("hello");
 
+app.get
+
 
