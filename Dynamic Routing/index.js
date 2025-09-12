@@ -10,5 +10,5 @@ app.get("/", function(req, res) { //route setup krre hai//
 });
 
 app.listen(3000,function() {
-    console.log("server is running on port 5000");
+    console.log("server is running on port 6000");
 })
