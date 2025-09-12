@@ -1,0 +1,17 @@
+todays work :;
+initialize a project with npm 
+express install
+
+
+setting up parsers for form
+
+setting up ejs for ejs pages
+
+setting up public static files
+
+
+
+dynamic routing
+how to get data coming from frontend at backend route
+
+
