@@ -14,7 +14,7 @@ app.get("/", function(req,res){
 });
 
 app.get("/about", function(req,res){
-    res.send("hello learning form handling for my website and this is about page of the wnesite");
+    res.send("hello learning form handling for my website and this is about first page of the website");
     
 });
 
